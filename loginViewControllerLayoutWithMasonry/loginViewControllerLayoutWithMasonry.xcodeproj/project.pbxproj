@@ -57,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				DB5449211CA5887600528EF4 /* loginViewControllerLayoutWithMasonry */,
+				DB5449221CA5887600528EF4 /* Supporting Files */,
 				DB5449201CA5887600528EF4 /* Products */,
 				F027987D7768C12FA594B7B7 /* Pods */,
 				BC5887B38F6A94B66C259511 /* Frameworks */,
@@ -75,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				DB54493C1CA58AEC00528EF4 /* Classes */,
-				DB5449221CA5887600528EF4 /* Supporting Files */,
 			);
 			path = loginViewControllerLayoutWithMasonry;
 			sourceTree = "<group>";
@@ -87,15 +87,16 @@
 				DB5449231CA5887600528EF4 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = loginViewControllerLayoutWithMasonry;
 			sourceTree = "<group>";
 		};
 		DB54493C1CA58AEC00528EF4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				DB5449401CA58B4500528EF4 /* View */,
-				DB54493F1CA58B2E00528EF4 /* Src */,
 				DB54493E1CA58B1700528EF4 /* Other */,
 				DB54493D1CA58AFD00528EF4 /* Controller */,
+				DB54493F1CA58B2E00528EF4 /* Src */,
 			);
 			name = Classes;
 			sourceTree = "<group>";

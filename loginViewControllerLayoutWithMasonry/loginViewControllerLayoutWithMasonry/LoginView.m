@@ -10,6 +10,21 @@
 
 @implementation LoginView
 
+- (instancetype)init{
+    return [self initWithFrame:CGRectZero];
+}
 
+- (instancetype)initWithFrame:(CGRect)frame{
+    if (self = [super initWithFrame:frame]) {
+        [self initView];
+    }
+    return self;
+}
+
+- (void)initView{
+    
+    
+    
+}
 
 @end
