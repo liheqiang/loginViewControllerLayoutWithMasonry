@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31BBB49AC671137762023FB2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F28DDAA0237EEA194E729E57 /* libPods.a */; };
+		DB5449241CA5887600528EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5449231CA5887600528EF4 /* main.m */; };
+		DB5449271CA5887600528EF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5449261CA5887600528EF4 /* AppDelegate.m */; };
+		DB54492F1CA5887600528EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB54492E1CA5887600528EF4 /* Assets.xcassets */; };
+		DB5449321CA5887600528EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5449301CA5887600528EF4 /* LaunchScreen.storyboard */; };
+		DB54493B1CA588AE00528EF4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB54493A1CA588AE00528EF4 /* LoginViewController.m */; };
+		DB5449431CA58B5C00528EF4 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5449421CA58B5C00528EF4 /* LoginView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8590901A435398311CBEF656 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DB54491F1CA5887600528EF4 /* loginViewControllerLayoutWithMasonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginViewControllerLayoutWithMasonry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5449231CA5887600528EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB5449251CA5887600528EF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB5449261CA5887600528EF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB54492E1CA5887600528EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB5449311CA5887600528EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB5449331CA5887600528EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5449391CA588AE00528EF4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DB54493A1CA588AE00528EF4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DB5449411CA58B5C00528EF4 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		DB5449421CA58B5C00528EF4 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		E785F5939DEAA1ADB49C11D5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F28DDAA0237EEA194E729E57 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB54491C1CA5887600528EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BBB49AC671137762023FB2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC5887B38F6A94B66C259511 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F28DDAA0237EEA194E729E57 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB5449161CA5887600528EF4 = {
+			isa = PBXGroup;
+			children = (
+				DB5449211CA5887600528EF4 /* loginViewControllerLayoutWithMasonry */,
+				DB5449201CA5887600528EF4 /* Products */,
+				F027987D7768C12FA594B7B7 /* Pods */,
+				BC5887B38F6A94B66C259511 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB5449201CA5887600528EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB54491F1CA5887600528EF4 /* loginViewControllerLayoutWithMasonry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB5449211CA5887600528EF4 /* loginViewControllerLayoutWithMasonry */ = {
+			isa = PBXGroup;
+			children = (
+				DB54493C1CA58AEC00528EF4 /* Classes */,
+				DB5449221CA5887600528EF4 /* Supporting Files */,
+			);
+			path = loginViewControllerLayoutWithMasonry;
+			sourceTree = "<group>";
+		};
+		DB5449221CA5887600528EF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB5449331CA5887600528EF4 /* Info.plist */,
+				DB5449231CA5887600528EF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB54493C1CA58AEC00528EF4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DB5449401CA58B4500528EF4 /* View */,
+				DB54493F1CA58B2E00528EF4 /* Src */,
+				DB54493E1CA58B1700528EF4 /* Other */,
+				DB54493D1CA58AFD00528EF4 /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		DB54493D1CA58AFD00528EF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB5449391CA588AE00528EF4 /* LoginViewController.h */,
+				DB54493A1CA588AE00528EF4 /* LoginViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DB54493E1CA58B1700528EF4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DB5449251CA5887600528EF4 /* AppDelegate.h */,
+				DB5449261CA5887600528EF4 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		DB54493F1CA58B2E00528EF4 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				DB54492E1CA5887600528EF4 /* Assets.xcassets */,
+				DB5449301CA5887600528EF4 /* LaunchScreen.storyboard */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		DB5449401CA58B4500528EF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB5449411CA58B5C00528EF4 /* LoginView.h */,
+				DB5449421CA58B5C00528EF4 /* LoginView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F027987D7768C12FA594B7B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8590901A435398311CBEF656 /* Pods.debug.xcconfig */,
+				E785F5939DEAA1ADB49C11D5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB54491E1CA5887600528EF4 /* loginViewControllerLayoutWithMasonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5449361CA5887600528EF4 /* Build configuration list for PBXNativeTarget "loginViewControllerLayoutWithMasonry" */;
+			buildPhases = (
+				EAB9B92D228569F7D78EC41F /* Check Pods Manifest.lock */,
+				DB54491B1CA5887600528EF4 /* Sources */,
+				DB54491C1CA5887600528EF4 /* Frameworks */,
+				DB54491D1CA5887600528EF4 /* Resources */,
+				B320C7604CDDBE9BC7FFA4E4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = loginViewControllerLayoutWithMasonry;
+			productName = loginViewControllerLayoutWithMasonry;
+			productReference = DB54491F1CA5887600528EF4 /* loginViewControllerLayoutWithMasonry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB5449171CA5887600528EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HqLee;
+				TargetAttributes = {
+					DB54491E1CA5887600528EF4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = DB54491A1CA5887600528EF4 /* Build configuration list for PBXProject "loginViewControllerLayoutWithMasonry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB5449161CA5887600528EF4;
+			productRefGroup = DB5449201CA5887600528EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB54491E1CA5887600528EF4 /* loginViewControllerLayoutWithMasonry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB54491D1CA5887600528EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5449321CA5887600528EF4 /* LaunchScreen.storyboard in Resources */,
+				DB54492F1CA5887600528EF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B320C7604CDDBE9BC7FFA4E4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAB9B92D228569F7D78EC41F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB54491B1CA5887600528EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5449271CA5887600528EF4 /* AppDelegate.m in Sources */,
+				DB5449241CA5887600528EF4 /* main.m in Sources */,
+				DB5449431CA58B5C00528EF4 /* LoginView.m in Sources */,
+				DB54493B1CA588AE00528EF4 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB5449301CA5887600528EF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5449311CA5887600528EF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB5449341CA5887600528EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB5449351CA5887600528EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB5449371CA5887600528EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8590901A435398311CBEF656 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = loginViewControllerLayoutWithMasonry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mine.com.loginViewControllerLayoutWithMasonry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB5449381CA5887600528EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E785F5939DEAA1ADB49C11D5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = loginViewControllerLayoutWithMasonry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mine.com.loginViewControllerLayoutWithMasonry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB54491A1CA5887600528EF4 /* Build configuration list for PBXProject "loginViewControllerLayoutWithMasonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5449341CA5887600528EF4 /* Debug */,
+				DB5449351CA5887600528EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5449361CA5887600528EF4 /* Build configuration list for PBXNativeTarget "loginViewControllerLayoutWithMasonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5449371CA5887600528EF4 /* Debug */,
+				DB5449381CA5887600528EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB5449171CA5887600528EF4 /* Project object */;
+}
