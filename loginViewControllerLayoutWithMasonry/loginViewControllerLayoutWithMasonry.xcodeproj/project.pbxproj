@@ -14,6 +14,8 @@
 		DB5449321CA5887600528EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5449301CA5887600528EF4 /* LaunchScreen.storyboard */; };
 		DB54493B1CA588AE00528EF4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB54493A1CA588AE00528EF4 /* LoginViewController.m */; };
 		DB5449431CA58B5C00528EF4 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5449421CA58B5C00528EF4 /* LoginView.m */; };
+		DB5449461CA596EA00528EF4 /* LHQVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5449451CA596EA00528EF4 /* LHQVerticalButton.m */; };
+		DBB95C711CA5991100E94E98 /* UIView+LHQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB95C701CA5991100E94E98 /* UIView+LHQExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		DB54493A1CA588AE00528EF4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		DB5449411CA58B5C00528EF4 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		DB5449421CA58B5C00528EF4 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		DB5449441CA596EA00528EF4 /* LHQVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHQVerticalButton.h; sourceTree = "<group>"; };
+		DB5449451CA596EA00528EF4 /* LHQVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHQVerticalButton.m; sourceTree = "<group>"; };
+		DBB95C6F1CA5991100E94E98 /* UIView+LHQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LHQExtension.h"; sourceTree = "<group>"; };
+		DBB95C701CA5991100E94E98 /* UIView+LHQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LHQExtension.m"; sourceTree = "<group>"; };
 		E785F5939DEAA1ADB49C11D5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F28DDAA0237EEA194E729E57 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,8 +137,12 @@
 		DB5449401CA58B4500528EF4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DB5449441CA596EA00528EF4 /* LHQVerticalButton.h */,
+				DB5449451CA596EA00528EF4 /* LHQVerticalButton.m */,
 				DB5449411CA58B5C00528EF4 /* LoginView.h */,
 				DB5449421CA58B5C00528EF4 /* LoginView.m */,
+				DBB95C6F1CA5991100E94E98 /* UIView+LHQExtension.h */,
+				DBB95C701CA5991100E94E98 /* UIView+LHQExtension.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -251,8 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB5449271CA5887600528EF4 /* AppDelegate.m in Sources */,
+				DB5449461CA596EA00528EF4 /* LHQVerticalButton.m in Sources */,
 				DB5449241CA5887600528EF4 /* main.m in Sources */,
 				DB5449431CA58B5C00528EF4 /* LoginView.m in Sources */,
+				DBB95C711CA5991100E94E98 /* UIView+LHQExtension.m in Sources */,
 				DB54493B1CA588AE00528EF4 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = loginViewControllerLayoutWithMasonry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mine.com.loginViewControllerLayoutWithMasonry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -373,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = loginViewControllerLayoutWithMasonry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mine.com.loginViewControllerLayoutWithMasonry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
